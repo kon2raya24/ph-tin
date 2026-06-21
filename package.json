@@ -1,0 +1,38 @@
+{
+  "name": "ph-tin",
+  "version": "1.0.0",
+  "description": "Philippine TIN (Tax Identification Number) validation and formatting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "philippines",
+    "tin",
+    "tax",
+    "validation",
+    "typescript",
+    "utilities"
+  ],
+  "author": "kon2raya",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kon2raya24/ph-tin.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.0.0"
+  }
+}
