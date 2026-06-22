@@ -20,3 +20,11 @@ npm install ph-tin
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'ph-tin';
+// See API section for available functions
+```
