@@ -1,3 +1,6 @@
+
+// Type exports for consumers
+// Add specific types as needed
 export function formatTIN(tin: string): string {
   const cleaned = tin.replace(/[^0-9]/g, "");
   if (cleaned.length !== 12) throw new Error("TIN must be 12 digits");
