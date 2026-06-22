@@ -1,3 +1,6 @@
+
+// Type exports for consumers
+// Add specific types as needed
 /**
  * validateTIN
  * @param tin
